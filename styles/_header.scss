@@ -10,6 +10,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     place-items: center;
+    z-index: 1;
     .header-nav{
         ul{
             display: grid;
@@ -21,6 +22,11 @@ header{
                     font-size: 1.4rem;
                     color: v.$light-b;
                 }
+                
+            }
+            :hover{
+                transform: scale(1.5,1.5);
+                color: v.$red-m;
             }
         }
     }
