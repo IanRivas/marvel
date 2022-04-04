@@ -15,7 +15,11 @@
         <div class="header-marvel-logo">
             <img src="./assets/icon/marvel.svg" alt="logo de marvel">
         </div>
+        <button id="hamb-btn">
+            <img src="./assets/icon/hamb-marvel.png" alt="hamburger icon">
+        </button>
         <nav class="header-nav">
+
             <ul>
                 <li><a href="#">Comics</a></li>
                 <li><a href="#">Movies</a></li>
@@ -23,24 +27,26 @@
                 <li><a href="#">TV Shows</a></li>
                 <li><a href="#">More</a></li>
             </ul>
+
         </nav>
+
     </header>
     <main>
         <section class="main-hero">
-            <ul class="slider-img-container">
-                <li id="slide1"><img src="./assets/img/hero.jpg" alt="heroes de marvel"></li>
-                <li id="slide2"><img src="./assets/img/4fantasticos.jpg" alt="4 fantasticos"></li>
-                <li id="slide3"><img src="./assets/img/xmen.jpg" alt="xmen"></li>
-            </ul>
+            <div class="slider-img-container">
+                <li>
+                    <img id="slide" src="./assets/img/hero.jpg" alt="slider image">
+                </li>
+            </div>
             <ul class="slider-dot-container">
                 <li>
-                    <a href="#slide1"><img src="./assets/icon/circulo-g.svg" alt="slider-dot"></a>
+                    <img id="slideBtn1" src="./assets/icon/circulo-g.svg" alt="slider-dot">
                 </li>
                 <li>
-                    <a href="#slide2"><img src="./assets/icon/circulo-w.svg" alt="slider-dot"></a>
+                    <img id="slideBtn2" src="./assets/icon/circulo-w.svg" alt="slider-dot">
                 </li>
                 <li>
-                    <a href="#slide3"><img src="./assets/icon/circulo-w.svg" alt="slider-dot"></a>
+                    <img id="slideBtn3" src="./assets/icon/circulo-w.svg" alt="slider-dot">
                 </li>
             </ul>
         </section>
@@ -91,7 +97,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer-marvel-logo">
             <img src="./assets/icon/marvel.svg" alt="logo marvel">
         </div>
@@ -119,5 +125,7 @@
         </div>
     </footer>
 </body>
+<script src="./js/index.js"></script>
+<script src="./js/slider.js"></script>
 
 </html>
